@@ -10,6 +10,10 @@ public class ArraysList {
     public static void main(String[] args) {
         List<Integer> Listarr = new ArrayList<>(Arrays.asList(1,2,4,3,4,53,5,35,44,34,32));
 
+
+        int sum = Listarr.stream().reduce(0,(a,b)->a+b);
+        System.out.println(sum);
+
         List<String> names = Arrays.asList("java", "spring", "api");
 
         List<String> newString = names.stream().map(s->s.toUpperCase()).collect(Collectors.toList());
