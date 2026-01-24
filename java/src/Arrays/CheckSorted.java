@@ -5,7 +5,9 @@ public class CheckSorted {
 
 
         int[] arr = {1, 2, 3, 4, 5};
+
         boolean isSorted = true;
+
 
 
 
@@ -19,6 +21,7 @@ public class CheckSorted {
 
         if(isSorted){
             System.out.println("The array is sorted");
+
         }else{
             System.out.println("The array is not sorted");
         }
