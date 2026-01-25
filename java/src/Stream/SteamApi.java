@@ -15,8 +15,7 @@ public class SteamApi {
 
         List<Integer> Stream = Arrays.asList(9,2,3,12,5,13,7,4,54);
         List<Integer> str = Stream;
-
-//      str.stream().sorted();
+      str.stream().sorted();
         System.out.println(str.remove(2));
 
 
