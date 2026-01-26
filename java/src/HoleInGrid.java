@@ -7,6 +7,7 @@ class HoleInGrid {
         Arrays.sort(vBars);
 
         int max_hori = 0;
+
         int max_ver = 0;
         int cnt =  0;
 
@@ -22,6 +23,7 @@ class HoleInGrid {
 
         for(int i=0;i<vBars.length-1;i++){
 
+
             if(vBars[i+1]-vBars[i] == 1 ) cnt +=1;
             else cnt=0;
 
@@ -29,6 +31,7 @@ class HoleInGrid {
         }
 
         int side = Math.min(max_hori,max_ver) + 2;
+
 
         return side*side;
     }
