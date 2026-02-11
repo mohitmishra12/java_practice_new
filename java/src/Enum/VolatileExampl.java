@@ -12,6 +12,10 @@ public class VolatileExampl {
             while (volatileExample.running){
                 int nums = 0;
                 for (int i = 0;i<nums; i++) {
+                    for(int j = 1; i<nums-1; i--){
+                        System.out.println(" ");
+
+                    }
 
                 }
                 System.out.println("Thread started..." + nums);
