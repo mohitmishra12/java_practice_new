@@ -40,7 +40,6 @@ public class FuncationalInterface {
             System.out.println("connected...");
         }
 
-
         bothInterface.myinterface();
 
         bothInterface.YourInterface();
