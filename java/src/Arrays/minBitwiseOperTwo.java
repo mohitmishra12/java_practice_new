@@ -1,6 +1,7 @@
 package Arrays;
 import java.util.*;
 
+
 class minBitwiseOperTwo {
     public int[] minBitwiseArray(List<Integer> nums) {
         int n = nums.size();
