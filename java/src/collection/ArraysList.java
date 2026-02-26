@@ -14,10 +14,12 @@ public class ArraysList {
         int sum = Listarr.stream().reduce(0,(a,b)->a+b);
         System.out.println(sum);
 
+
         List<String> names = Arrays.asList("java", "spring", "api");
 
         List<String> newString = names.stream().map(s->s.toUpperCase()).collect(Collectors.toList());
         System.out.println(newString);
+
 
 
         Listarr.add(23);
@@ -26,6 +28,7 @@ public class ArraysList {
                  .filter(n->n%2==0)
                  .sorted()
                  .limit(3)
+
                  .forEach(System.out::println);
     }
 }
