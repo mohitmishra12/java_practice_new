@@ -19,9 +19,6 @@ public class ArraysList {
 
         List<String> newString = names.stream().map(s->s.toUpperCase()).collect(Collectors.toList());
         System.out.println(newString);
-
-
-
         Listarr.add(23);
 //        Listarr.getFirst().equals(1);
          Listarr.stream()
