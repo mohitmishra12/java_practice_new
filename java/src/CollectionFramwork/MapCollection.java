@@ -11,9 +11,7 @@ public class MapCollection {
         MapValue.put(1,"mohit");
         MapValue.put(2,"Rohit");
         MapValue.put(3," ");
-        
-        MapValue.put(4,"abhishek");
-        
+        MapValue.put(4,"abhishek"); 
         MapValue.put(4,"abhishek");
 
         System.out.println(MapValue.get(3));
