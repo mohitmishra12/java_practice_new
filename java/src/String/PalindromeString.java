@@ -5,8 +5,8 @@ public class PalindromeString {
 
         String str = "taat";
         String rev = " ";
-
         for(int i=str.length()-1;1>=i;i--){
+
             rev += str.charAt(i);
             System.out.println(rev);
         }
