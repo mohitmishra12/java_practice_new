@@ -8,6 +8,8 @@ public class PalindromeString {
         for(int i=str.length()-1;1>=i;i--){
 
             rev += str.charAt(i);
+
+
             System.out.println(rev);
         }
         if(str.equals(rev)){
