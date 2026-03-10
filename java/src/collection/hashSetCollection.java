@@ -13,7 +13,7 @@ public class hashSetCollection {
         newHashSet.add(11);
         newHashSet.add(14);
 
-        System.out.println(newHashSet);
+        System.out.println(newHashSet.size());
 
     }
 }
