@@ -13,6 +13,8 @@ public class hashSetCollection {
         newHashSet.add(11);
         newHashSet.add(14);
 
+        newHashSet.isEmpty();
+
         System.out.println(newHashSet.size());
 
     }
