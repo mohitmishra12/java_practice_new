@@ -7,7 +7,10 @@ public class CheckSorted {
         boolean isSorted = true;
 
         for (int i = 1; i < arr.length; i++) {
+
             if (arr[i] < arr[i - 1]) {
+
+
                 isSorted = false;
                 break;
             }
@@ -18,6 +21,7 @@ public class CheckSorted {
 
         }else{
             System.out.println("The array is not sorted");
+
         }
         //System.out.println(isSorted);
         System.out.println("Sorted: " + isSorted);
