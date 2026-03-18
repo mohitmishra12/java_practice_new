@@ -10,7 +10,6 @@ public class CheckSorted {
 
             if (arr[i] < arr[i - 1]) {
 
-
                 isSorted = false;
 
                 break;
