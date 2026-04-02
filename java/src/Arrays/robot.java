@@ -25,6 +25,7 @@ class robot {
                         healths[rightRobot] = 0;
                         healths[idx]--;
                         top--; // pop
+
                     } else if (healths[rightRobot] > healths[idx]) {
                         healths[idx] = 0;
                         healths[rightRobot]--;
@@ -32,6 +33,7 @@ class robot {
                         healths[rightRobot] = 0;
                         healths[idx] = 0;
                         top--; // pop
+
                     }
                 }
             }
