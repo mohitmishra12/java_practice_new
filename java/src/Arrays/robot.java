@@ -34,8 +34,10 @@ class robot {
                         healths[idx] = 0;
                         top--; // pop
 
+
                     }
                 }
+
             }
         }
 
