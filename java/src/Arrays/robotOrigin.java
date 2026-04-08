@@ -7,7 +7,6 @@ class robotOrigin {
             char c = moves.charAt(i);
             if (c == 'R')
                 ++x;
-
             else if (c == 'L')
                 --x;
 
