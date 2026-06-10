@@ -182,6 +182,7 @@ public class EncapsulationJava {
         inc.setGender("Male");
         inc.setCity("Delhi");
         inc.setState("Delhi");
+
         inc.setCountry("India");
         inc.setAccountNumber("ACC123456");
         inc.setAccountType("Savings");
@@ -194,8 +195,10 @@ public class EncapsulationJava {
         System.out.println("Balance: " + inc.getBalance());
         System.out.println("Mobile: " + inc.getMobileNumber());
         System.out.println("Address: " + inc.getAddress());
+
         System.out.println("Pincode: " + inc.getPincode());
         System.out.println("Email: " + inc.getEmail());
+
         System.out.println("Company: " + inc.getCompanyName());
     }
 }
