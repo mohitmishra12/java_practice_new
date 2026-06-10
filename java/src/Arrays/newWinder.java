@@ -15,10 +15,14 @@ class newWinder {
             minEnd = Math.min(minEnd, a1[i] + t1[i]);
         }
         int ans = Integer.MAX_VALUE;
+
+
         for (int i = 0; i < a2.length; ++i) {
+
 
             ans = Math.min(ans, Math.max(minEnd, a2[i]) + t2[i]);
         }
+//        yes this is string fun
         return ans;
     }
 }
